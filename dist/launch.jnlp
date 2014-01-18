@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>jLic</title>
+        <vendor>Dvr</vendor>
+        <homepage href=""/>
+        <description>jLic</description>
+        <description kind="short">jLic</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.7+"/>
+        <jar href="jLic.jar" main="true"/>
+    <extension href="jnlpcomponent1.jnlp"/>
+</resources>
+    <applet-desc height="420" main-class="com.fox.util.CadCli" name="jLic" width="543">
+    </applet-desc>
+</jnlp>

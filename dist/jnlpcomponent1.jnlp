@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp href="jnlpcomponent1.jnlp" spec="1.0+">
+    <information>
+        <title>jnlpcomponent1</title>
+        <vendor>NB-JWS</vendor>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <jar href="lib/caelum-stella-core-2.0-beta1.jar" download="eager"/>
+        <jar href="lib/mail.jar" download="eager"/>
+    </resources>
+    <component-desc/>
+</jnlp>
